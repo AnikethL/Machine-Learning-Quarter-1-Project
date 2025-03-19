@@ -2,7 +2,7 @@
 
 This project aims to utilize the Automated Crash Reporting System of the Maryland State Police to create a model that predicts the extent of damage caused by a traffic collision. The model aims to analyze various factors contributing to the damage of a vehicle after an accident. Specifically, we aim for the model to be able to classify the type of damage the vehicle involved in the collision sustained (Superficial, Functional, Disabling, Destroyed, and No Damage). As there are more than two possible outputs possible, this would be considered a multi-classification problem. In a real-world scenario, emergency services could use our model to predict the severity of vehicle damage before arriving at the scene of a traffic collision, allowing for them to prioritize more critical accidents. Along with this, our model could locate intersections or roads that are more prone to accidents, prompting authorities to implement better road designs, more traffic signals, or speed regulations at those locations.
 
-## **Data setup**
+### **Data setup**
 
 Download the trainMerged_ND.csv under ML Q1 Project > Cleaned and Split Data > nonweka
 OR
@@ -33,11 +33,11 @@ Perform attribute selection algorithms as detailed in Part 4. As each arff file 
 Run merge.py to combine the training and validation sets
 Run fixNoDamage.py to clean up the class labels (this is to get rid of stray quotations added by Weka)
 
-**Open Weka and load the file trainMerged_ND.csv**
+### **Open Weka and load the file trainMerged_ND.csv**
 
 If this was downloaded from Google Drive, it should be in home directory
 If this was created from scratch, it should be under the “nonweka” folder
 
 **Navigate to the classify tab choose the RandomForest classifier under weka > classifiers > trees **
 
-**Press start and view the results in the classifier output window**
+### **Press start and view the results in the classifier output window**
